@@ -1,0 +1,68 @@
+Project URL: 
+============ 
+https://github.com/vlonje20/mtn_app.git
+
+Git RunDown: 
+============ 
+# Configure Local Environment:   
+  - git config --global user.name "gitHub username"
+  - git config --global user.email "gitHub email"
+# Check Configuration:   
+  - git config --global --list  
+
+# Create your local project repository and cd to it  
+  - mkdir mtn-app 
+  - cd mtn-app 
+
+# Initialized our Project Repository:  
+  - git init 
+
+# Clone Project Repository:  
+  - git clone project-URL
+
+# Rename the Project Repository: (optional) 
+  - ls 
+  - mv mtn-app emma  
+
+# cd Project Repository: 
+  - cd emma (if renamed)
+  - cd mtn-app (if not renamed)   
+
+# Create a file: 
+  Windows Terminal 
+  - notepad fileName 
+  - notepad testfile 
+
+  Linux Ternal (Bash Shell)
+  - nano fileName 
+
+# Add file to the Staging area 
+  - git add .  
+
+# Commit the file to the Production area
+  - git commit -m "commit message"
+
+# Create a Branch 
+  - git branch = to see the branch you are presently workin on
+
+  git branch branchName
+  git checkout branchName 
+
+  git checkout -b branchName 
+
+# Create your aliasName:  
+  - git remote -v = to check aliasName 
+  (origin)
+
+  - git remote add aliasName project-URL 
+  - git remote add dev https://github.com/vlonje20/mtn_app.git 
+    (where 'dev' is your aliasName) 
+  
+  - git remote remove aliasName (origin)  
+  - git remote rm aliasName (origin) 
+
+  - git remote add aliasName project-URL 
+  - git remote add origin https://github.com/vlonje20/mtn_app.git 
+
+# Push Codes to github:  
+  - git push aliasName branchName 
